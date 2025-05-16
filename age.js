@@ -32,10 +32,10 @@ const filterListUrl = ''
 
 const firstClass = [
     {
-        name: '日本',
+        name: '目录',
         // https://www.clicli.pro/show/id/1/page/2.html
         // 把网站主页变成 @{webSite}  把页码变成 @{page}
-        id: '@{webSite}/catalog/all-all-all-all-all-time-@{page}-日本-all-all',
+        id: '@{webSite}/catalog/all-all-all-all-all-time-@{page}',
     },
     {
         name: '中国',
