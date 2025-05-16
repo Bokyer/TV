@@ -1,7 +1,7 @@
 // ignore
-//@name:「嗅」 clicli
+//@name:「嗅」 ymvid
 //@version:1
-//@webSite:https://www.clicli.pro
+//@webSite:https://www.ymvid.com
 //@remark:
 //@order: D
 // ignore
