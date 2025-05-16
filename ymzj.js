@@ -22,10 +22,10 @@ const webSite = 'https://www.ymvid.com'
 const searchUrl = '@{webSite}/search?p=@{page}&keyword=@{searchWord}'
 // 当前网站任意视频详情页
 // https://www.clicli.pro/bangumi/3384.html
-const videoDetailPage = '@{webSite}/play/6973'
+const videoDetailPage = '@{webSite}/play/6972'
 // 当前网站任意视频播放页
 // https://www.clicli.pro/video/3384/1-1.html
-const videoPlayPage = '@{webSite}/play/6973/115920'
+const videoPlayPage = '@{webSite}/play/6972/115904'
 
 // 保持不变
 const filterListUrl = ''
