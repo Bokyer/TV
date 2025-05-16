@@ -37,18 +37,7 @@ const firstClass = [
         // 把网站主页变成 @{webSite}  把页码变成 @{page}
         id: '@{webSite}/catalog/all-all-all-all-all-time-@{page}',
     },
-    {
-        name: '中国',
-        // https://www.clicli.pro/show/id/2/page/2.html
-        // 把网站主页变成 @{webSite}  把页码变成 @{page}
-        id: '@{webSite}/catalog/all-all-all-all-all-time-@{page}-中国-all-all',
-    },
-    {
-        name: '欧美',
-        // https://www.clicli.pro/show/id/2/page/2.html
-        // 把网站主页变成 @{webSite}  把页码变成 @{page}
-        id: '@{webSite}/catalog/all-all-all-all-all-time-@{page}-欧美-all-all',
-    },
+    
 ]
 
 // 下面这个不要有任何改动，且保持在最后一行，加载内置代码需要
