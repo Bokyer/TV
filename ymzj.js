@@ -10,7 +10,7 @@
 // 不能保证一定能用，不能用的欢迎反馈
 
 /// 是否模拟 PC 是 1， 手机是 0
-const isUsePC = 0
+const isUsePC = 1
 /// 默认应该是 0，当视频不能播放的时候，可以把这个设置为 1， 否则不要改动
 const isAddReferer = 0
 
