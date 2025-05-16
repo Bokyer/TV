@@ -12,7 +12,7 @@
 /// 是否模拟 PC 是 1， 手机是 0
 const isUsePC = 1
 /// 默认应该是 0，当视频不能播放的时候，可以把这个设置为 1， 否则不要改动
-const isAddReferer = 1
+const isAddReferer = 0
 
 // 网站主页
 const webSite = 'https://www.ymvid.com'
