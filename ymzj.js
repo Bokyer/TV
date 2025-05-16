@@ -4,7 +4,7 @@
 //@webSite:https://www.ymvid.com
 //@remark:
 //@order: D
-//@env:
+//@env:X-AUTH-TOKEN=d21cf8a0-df6b-4626-adae-8fd469c70419; JSESSIONID=068F0C4C8E54626A64709296CF4DB2BD; browser-code=db11a6f7d7b0227aa8c87560bbaf39733b3a024d3b7431049deceff36269813149941198c3ee34179465ddbf1445475e; lang=zh-CN
 // ignore
 
 // 适用于 把鼠标放在视频封面上 可以右键 复制正确链接的网站
