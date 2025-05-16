@@ -19,7 +19,7 @@ const webSite = 'https://www.ymvid.com'
 // 网站搜索
 // https://www.clicli.pro/search/page/2/wd/海.html
 // 把网站主页变成 @{webSite} 把搜索词变成 @{searchWord}  把页码变成 @{page}
-const searchUrl = '@{webSite}/search?p=@{page}&keyword=@{searchWord}'
+const searchUrl = '@{webSite}/search?keyword=@{searchWord}'
 // 当前网站任意视频详情页
 // https://www.clicli.pro/bangumi/3384.html
 const videoDetailPage = '@{webSite}/play/6972'
