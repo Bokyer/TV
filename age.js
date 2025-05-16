@@ -1,7 +1,7 @@
 // ignore
 //@name:「嗅」 age
 //@version:1
-//@webSite:https://dick.xfani.com
+//@webSite:https://www.netflixgc.com
 //@remark:
 //@order: D
 // ignore
@@ -15,17 +15,17 @@ const isUsePC = 1
 const isAddReferer = 0
 
 // 网站主页
-const webSite = 'https://dick.xfani.com'
+const webSite = 'https://www.netflixgc.com'
 // 网站搜索
 // https://www.clicli.pro/search/page/2/wd/海.html
 // 把网站主页变成 @{webSite} 把搜索词变成 @{searchWord}  把页码变成 @{page}
 const searchUrl = '@{webSite}/search/wd/@{searchWord}/page/@{page}.html'
 // 当前网站任意视频详情页
 // https://www.clicli.pro/bangumi/3384.html
-const videoDetailPage = '@{webSite}/bangumi/3097.html'
+const videoDetailPage = '@{webSite}/detail/36273.html'
 // 当前网站任意视频播放页
 // https://www.clicli.pro/video/3384/1-1.html
-const videoPlayPage = '@{webSite}/watch/3097/1/1.html'
+const videoPlayPage = '@{webSite}/play/36273-12-1.html'
 
 // 保持不变
 const filterListUrl = ''
@@ -35,7 +35,7 @@ const firstClass = [
         name: '连载',
         // https://www.clicli.pro/show/id/1/page/2.html
         // 把网站主页变成 @{webSite}  把页码变成 @{page}
-        id: '@{webSite}/show/1/area/日本.html',
+        id: '@{webSite}/vodshow/1-----------.html',
     },
     
 ]
