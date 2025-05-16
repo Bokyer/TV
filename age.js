@@ -1,10 +1,9 @@
 // ignore
-//@name:「嗅」 ymvid
+//@name:「嗅」 age
 //@version:1
-//@webSite:https://www.ymvid.com
+//@webSite:https://www.agefans.la/
 //@remark:
 //@order: D
-//@env:X-AUTH-TOKEN=d21cf8a0-df6b-4626-adae-8fd469c70419; JSESSIONID=068F0C4C8E54626A64709296CF4DB2BD; browser-code=db11a6f7d7b0227aa8c87560bbaf39733b3a024d3b7431049deceff36269813149941198c3ee34179465ddbf1445475e; lang=zh-CN
 // ignore
 
 // 适用于 把鼠标放在视频封面上 可以右键 复制正确链接的网站
@@ -16,33 +15,39 @@ const isUsePC = 1
 const isAddReferer = 0
 
 // 网站主页
-const webSite = 'https://www.ymvid.com'
+const webSite = 'https://www.agefans.la'
 // 网站搜索
 // https://www.clicli.pro/search/page/2/wd/海.html
 // 把网站主页变成 @{webSite} 把搜索词变成 @{searchWord}  把页码变成 @{page}
-const searchUrl = '@{webSite}/search?keyword=@{searchWord}'
+const searchUrl = '@{webSite}/search?@{searchWord}&@{page}'
 // 当前网站任意视频详情页
 // https://www.clicli.pro/bangumi/3384.html
-const videoDetailPage = '@{webSite}/play/6972'
+const videoDetailPage = '@{webSite}/detail/20230135'
 // 当前网站任意视频播放页
 // https://www.clicli.pro/video/3384/1-1.html
-const videoPlayPage = '@{webSite}/play/6972/115904'
+const videoPlayPage = '@{webSite}/play/20230135/1/1'
 
 // 保持不变
 const filterListUrl = ''
 
 const firstClass = [
     {
-        name: '粤语动画',
+        name: '日本',
         // https://www.clicli.pro/show/id/1/page/2.html
         // 把网站主页变成 @{webSite}  把页码变成 @{page}
-        id: '@{webSite}/list/@{page}/c1-s0-v0-l0-t0-y0/time_desc',
+        id: '@{webSite}/catalog/all-all-all-all-all-time-@{page}-日本-all-all',
     },
     {
-        name: '国语动画',
+        name: '中国',
         // https://www.clicli.pro/show/id/2/page/2.html
         // 把网站主页变成 @{webSite}  把页码变成 @{page}
-        id: '@{webSite}/list/@{page}/c2-s0-v0-l0-t0-y0/time_desc',
+        id: '@{webSite}/catalog/all-all-all-all-all-time-@{page}-中国-all-all',
+    },
+    {
+        name: '欧美',
+        // https://www.clicli.pro/show/id/2/page/2.html
+        // 把网站主页变成 @{webSite}  把页码变成 @{page}
+        id: '@{webSite}/catalog/all-all-all-all-all-time-@{page}-欧美-all-all',
     },
 ]
 
