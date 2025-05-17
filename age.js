@@ -22,10 +22,10 @@ const webSite = 'https://www.ymvid.com/hk'
 const searchUrl = '@{webSite}/search/wd/@{searchWord}/page/@{page}.html'
 // 当前网站任意视频详情页
 // https://www.clicli.pro/bangumi/3384.html
-const videoDetailPage = '@{webSite}/hk/play/5035'
+const videoDetailPage = '@{webSite}/play/5035'
 // 当前网站任意视频播放页
 // https://www.clicli.pro/video/3384/1-1.html
-const videoPlayPage = '@{webSite}/hk/play/5035/62464'
+const videoPlayPage = '@{webSite}/play/5035/62464'
 
 // 保持不变
 const filterListUrl = ''
@@ -35,7 +35,7 @@ const firstClass = [
         name: '粤语',
         // https://www.clicli.pro/show/id/1/page/2.html
         // 把网站主页变成 @{webSite}  把页码变成 @{page}
-        id: '@{webSite}/hk/list/@{page}/c1-s0-v0-l0-t0-y0/time_desc',
+        id: '@{webSite}/list/@{page}/c1-s0-v0-l0-t0-y0/time_desc',
     },
     
 ]
