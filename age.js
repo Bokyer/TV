@@ -1,7 +1,7 @@
 // ignore
 //@name:「嗅」 age
 //@version:1
-//@webSite:https://www.ymvid.com/
+//@webSite:https://www.ymvid.com/hk
 //@remark:
 //@order: D
 // ignore
@@ -15,17 +15,17 @@ const isUsePC = 1
 const isAddReferer = 0
 
 // 网站主页
-const webSite = 'https://www.ymvid.com/'
+const webSite = 'https://www.ymvid.com/hk'
 // 网站搜索
 // https://www.clicli.pro/search/page/2/wd/海.html
 // 把网站主页变成 @{webSite} 把搜索词变成 @{searchWord}  把页码变成 @{page}
 const searchUrl = '@{webSite}/search/wd/@{searchWord}/page/@{page}.html'
 // 当前网站任意视频详情页
 // https://www.clicli.pro/bangumi/3384.html
-const videoDetailPage = '@{webSite}/play/6972'
+const videoDetailPage = '@{webSite}/hk/play/5035'
 // 当前网站任意视频播放页
 // https://www.clicli.pro/video/3384/1-1.html
-const videoPlayPage = '@{webSite}/8f1170d2-66d1-490d-8e32-39bc13a67899'
+const videoPlayPage = '@{webSite}/hk/play/5035/62464'
 
 // 保持不变
 const filterListUrl = ''
@@ -35,7 +35,7 @@ const firstClass = [
         name: '粤语',
         // https://www.clicli.pro/show/id/1/page/2.html
         // 把网站主页变成 @{webSite}  把页码变成 @{page}
-        id: '@{webSite}/list/@{page}/c1-s0-v0-l0-t0-y0/time_desc',
+        id: '@{webSite}/hk/list/@{page}/c1-s0-v0-l0-t0-y0/time_desc',
     },
     
 ]
