@@ -25,7 +25,7 @@ const searchUrl = '@{webSite}/search/wd/@{searchWord}/page/@{page}.html'
 const videoDetailPage = '@{webSite}/play/6972'
 // 当前网站任意视频播放页
 // https://www.clicli.pro/video/3384/1-1.html
-const videoPlayPage = '@{webSite}/play/6972/116064'
+const videoPlayPage = '@{webSite}/8f1170d2-66d1-490d-8e32-39bc13a67899'
 
 // 保持不变
 const filterListUrl = ''
