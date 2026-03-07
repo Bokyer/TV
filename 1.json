@@ -1,8 +1,8 @@
 [
    {
-      "name": "奇優影院",
-      "version": 3,
-      "remark": "奇優影院",
+      "name": "奇優影院1",
+      "version": 1,
+
       "webSite": "http://www.qiyoudy4.com",
       "order": "B",
       "api": "https://raw.githubusercontent.com/Bokyer/TV/refs/heads/main/qiyou.js",
