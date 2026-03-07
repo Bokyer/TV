@@ -4,9 +4,8 @@
       "version": 3,
       "remark": "奇優影院",
       "webSite": "http://www.qiyoudy4.com",
-      "instance": "qiyou20240904",
       "order": "B",
       "api": "https://raw.githubusercontent.com/Bokyer/TV/refs/heads/main/qiyou.js",
-      "type": 100
+      "type": 101
     }
 ]
