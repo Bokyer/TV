@@ -6,7 +6,7 @@
       "webSite": "http://www.qiyoudy4.com",
       "instance": "qiyou20240904",
       "order": "B",
-      "api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Deprecated_qiyou.js",
+      "api": "https://raw.githubusercontent.com/Bokyer/TV/refs/heads/main/qiyou.js",
       "type": 100
     }
 ]
