@@ -1,28 +1,11 @@
-{
-  "name": "tideember",
-  "homeUrl": "https://tideember.cc",
-  "searchUrl": "https://tideember.cc/search/?q={keyword}",
-  "playUrl": "https://tideember.cc/play/{id}",
-  "searchId": ".search-result-item",
-  "videoItem": ".video-list-item",
-  "titleSelector": ".video-title",
-  "linkSelector": "a",
-  "linkAttribute": "href",
-  "idAttribute": "data-id",
-  "descSelector": ".video-desc",
-  "yearSelector": ".video-year",
-  "areaSelector": ".video-area",
-  "langSelector": ".video-lang",
-  "statusSelector": ".video-status",
-  "pattern": {
-    "title": "{title}",
-    "url": "{url}",
-    "id": "{id}"
-  },
-  "filter": {
-    "year": "",
-    "area": "",
-    "lang": "",
-    "limit": 20
-  }
-}
+[
+   {
+      "name": "tideember",
+      "version": 2,
+
+      "webSite": "https://tideember.cc",
+      "order": "B",
+      "api": "https://raw.githubusercontent.com/Bokyer/TV/refs/heads/main/tideember_uzvideo.js",
+      "type": 101
+    }
+]
